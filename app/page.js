@@ -85,11 +85,11 @@ export default function Home() {
       icon: '👟',
       desc: 'Simple step/distance/heart metrics and quick exercise buttons.'
     },
-    {
+    /* {
       title: 'Caregiver View',
       icon: '👪',
       desc: 'Remote monitoring and alerts for family or doctors (future).' 
-    }
+    } */
   ];
 
   return (
@@ -131,10 +131,6 @@ export default function Home() {
               <div className="p-4 bg-white rounded shadow flex flex-col items-center gap-2">
                 <div className="text-3xl">⏰</div>
                 <div className="text-sm text-gray-600">Reminders</div>
-              </div>
-              <div className="p-4 bg-white rounded shadow flex flex-col items-center gap-2">
-                <div className="text-3xl">👪</div>
-                <div className="text-sm text-gray-600">Caregiver View</div>
               </div>
             </div>
 
@@ -195,68 +191,6 @@ export default function Home() {
               </div>
             ))}
           </div>
-        </section>
-
-        {/* Demo / Screenshots */}
-        <section id="demo" className="py-8">
-          <h3 className="text-2xl font-semibold mb-4">Demo Screenshots</h3>
-          <p className="text-gray-600 mb-6">Pictorial mockups showing how the app will look and feel.</p>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div className="bg-white rounded shadow p-4 flex flex-col items-center gap-3">
-              <div className="w-40 h-72 bg-sky-50 rounded-xl flex flex-col p-3">
-                <div className="text-2xl">💊</div>
-                <div className="mt-auto text-sm">Medicine Card</div>
-              </div>
-              <div className="text-sm text-gray-500">Card view with emoji, color & taken button</div>
-            </div>
-
-            <div className="bg-white rounded shadow p-4 flex flex-col items-center gap-3">
-              <div className="w-40 h-72 bg-sky-50 rounded-xl flex flex-col p-3">
-                <div className="text-2xl">⏰</div>
-                <div className="mt-auto text-sm">Reminders</div>
-              </div>
-              <div className="text-sm text-gray-500">Simple pictorial reminder setup</div>
-            </div>
-
-            <div className="bg-white rounded shadow p-4 flex flex-col items-center gap-3">
-              <div className="w-40 h-72 bg-sky-50 rounded-xl flex flex-col p-3">
-                <div className="text-2xl">📅</div>
-                <div className="mt-auto text-sm">History</div>
-              </div>
-              <div className="text-sm text-gray-500">Visual timeline with taken/missed status</div>
-            </div>
-          </div>
-        </section>
-
-        {/* Roadmap */}
-        <section id="roadmap" className="py-8">
-          <h3 className="text-2xl font-semibold mb-4">Roadmap</h3>
-          <ol className="space-y-4">
-            <li className="p-4 bg-white rounded shadow flex gap-4 items-center">
-              <div className="text-3xl">🚀</div>
-              <div>
-                <div className="font-semibold">Stage 1 — MVP</div>
-                <div className="text-sm text-gray-600">Medicine cards, reminders, pictorial guides, contact support.</div>
-              </div>
-            </li>
-
-            <li className="p-4 bg-white rounded shadow flex gap-4 items-center">
-              <div className="text-3xl">🔊</div>
-              <div>
-                <div className="font-semibold">Stage 2 — Accessibility</div>
-                <div className="text-sm text-gray-600">Audio reminders, multilingual support, larger UI for low vision.</div>
-              </div>
-            </li>
-
-            <li className="p-4 bg-white rounded shadow flex gap-4 items-center">
-              <div className="text-3xl">📸</div>
-              <div>
-                <div className="font-semibold">Stage 3 — AI Features</div>
-                <div className="text-sm text-gray-600">Photo recognition of pills, caregiver dashboard, analytics.</div>
-              </div>
-            </li>
-          </ol>
         </section>
 
         {/* Contact form */}
