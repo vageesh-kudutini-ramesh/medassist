@@ -552,7 +552,7 @@ export default function Home() {
         </div>
         
         <div className="bg-white rounded-lg shadow-md p-6">
-          <h4 className="font-semibold mb-4">📅 This Week's Medicine Log</h4>
+          <h4 className="font-semibold mb-4">📅 This Week&apos;s Medicine Log</h4>
           <div className="space-y-4">
             {historyData.map((dayData, dayIndex) => (
               <div key={dayIndex} className="border-l-4 border-blue-200 pl-4">
@@ -1000,7 +1000,7 @@ export default function Home() {
                   <h5 className="text-2xl font-bold text-gray-800 mb-2">Vageesh Kudutini Ramesh</h5>
                   <p className="text-blue-600 font-semibold mb-4">Lead Developer</p>
                   <p className="text-gray-600 leading-relaxed">
-                    Technical architect and full-stack developer responsible for building SmartDose's 
+                    Technical architect and full-stack developer responsible for building SmartDose&apos;s 
                     core functionality and ensuring seamless user experience across all platforms.
                   </p>
                   <div className="mt-4 flex justify-center gap-4">
@@ -1051,7 +1051,7 @@ export default function Home() {
                     🔬
                   </div>
                   <h5 className="text-xl font-bold text-gray-800 mb-2">Innovation</h5>
-                  <p className="text-gray-600">Continuously pushing the boundaries of what's possible in healthcare technology.</p>
+                  <p className="text-gray-600">Continuously pushing the boundaries of what&apos;s possible in healthcare technology.</p>
                 </div>
 
                 <div className="text-center">
@@ -1105,7 +1105,7 @@ export default function Home() {
               </span>
             </h3>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Have questions or want to partner with us? We'd love to hear from you!
+              Have questions or want to partner with us? We&apos;d love to hear from you!
             </p>
           </div>
           
@@ -1183,7 +1183,7 @@ export default function Home() {
                 </button>
                 {formStatus === 'sent' && (
                   <div className="text-center text-green-600 font-semibold">
-                    ✅ Message sent successfully! We'll get back to you soon.
+                    ✅ Message sent successfully! We&apos;ll get back to you soon.
                   </div>
                 )}
                 {formStatus === 'error' && (
@@ -1300,7 +1300,7 @@ export default function Home() {
                 <h4 className="font-semibold mb-3">📋 Important Information</h4>
                 <ul className="space-y-2 text-sm text-gray-700">
                   <li>• Take with a full glass of water</li>
-                  <li>• Follow your doctor's instructions carefully</li>
+                  <li>• Follow your doctor&apos;s instructions carefully</li>
                   <li>• Store in a cool, dry place</li>
                   <li>• Keep out of reach of children</li>
                   <li>• Contact your doctor if you experience any side effects</li>
@@ -1522,11 +1522,11 @@ export default function Home() {
                   <div className="text-8xl mb-6">🎯</div>
                   <h3 className="text-3xl font-bold text-gray-800">Welcome to SmartDose!</h3>
                   <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                    Let's take a quick tour of our revolutionary medicine management app. 
-                    You'll see how easy it is to track, manage, and stay compliant with your medications.
+                    Let&apos;s take a quick tour of our revolutionary medicine management app. 
+                    You&apos;ll see how easy it is to track, manage, and stay compliant with your medications.
                   </p>
                   <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-2xl">
-                    <h4 className="text-xl font-semibold mb-4">What you'll experience:</h4>
+                    <h4 className="text-xl font-semibold mb-4">What you&apos;ll experience:</h4>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-left">
                       <div className="flex items-center gap-3">
                         <span className="text-2xl">💊</span>
@@ -1586,7 +1586,7 @@ export default function Home() {
                   <div className="bg-blue-50 p-6 rounded-2xl text-center">
                     <h4 className="text-lg font-semibold mb-2">🎉 Great Job!</h4>
                     <p className="text-gray-700">
-                      You've successfully managed your medicines! The app tracks your compliance and sends smart reminders.
+                      You&apos;ve successfully managed your medicines! The app tracks your compliance and sends smart reminders.
                     </p>
                   </div>
                 </div>
@@ -1745,7 +1745,7 @@ export default function Home() {
                     <div className="text-6xl mb-6">🎉</div>
                     <h4 className="text-2xl font-bold text-gray-800 mb-4">Demo Complete!</h4>
                     <p className="text-lg text-gray-600 mb-6">
-                      You've experienced the power of SmartDose! Ready to transform your medication management?
+                      You&apos;ve experienced the power of SmartDose! Ready to transform your medication management?
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                       <button className="px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105">
